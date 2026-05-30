@@ -30,7 +30,7 @@ const CategoriesSection = ({ categories }: TCategoriesProps) => {
               <Image
                 src={getImageUrl(category.imageUrl)}
                 width={86}
-                height="86"
+                height={86}
                 alt={category.name}
                 className="mb-[10px]"
               />
